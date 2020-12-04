@@ -3,8 +3,7 @@ import requests
 
 app = Flask(__name__)
 
-# @app.route('/report',methods=['POST'])
-@app.route('https://ramadhuvishan.github.io/weatherApp/weatherApp/report',methods=[POST])
+@app.route('/report',methods=['POST'])
 def report():
     cn = request.form['cityName']
     url = 'http://api.openweathermap.org/data/2.5/weather?q={}&APPID=7fd6991c6458f733cddc430437c3c106&units=metric'.format(cn)
