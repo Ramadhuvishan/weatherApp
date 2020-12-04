@@ -6,3 +6,6 @@ Steps to run the web application:
   After downloading all the files
   1) Run the "script.py" file
   2) Open the "front.html" file and enter the city name
+
+Prerequisite:
+install flask in your machine (pip install flask)
