@@ -6,15 +6,3 @@ Steps to run the web application:
   After downloading all the files
   1) Run the "script.py" file
   2) Open the "front.html" file and enter the city name
-
-
-Output:
-
-After running "script.py"
-
-
-“front.html”
-
-
-result.html
-
